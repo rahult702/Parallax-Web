@@ -76,9 +76,3 @@ body{
 .without-border {
     color: #fff;
 }
-
-@media(max-width:568px){
-    .jpg1, .jpg2, .jpg3, .jpg4{
-        background-attachment: scroll;
-    }
-}
