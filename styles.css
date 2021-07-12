@@ -1,0 +1,84 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.jpg1, .jpg2, .jpg3, .jpg4{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.70;
+    background-attachment: fixed;
+}
+
+.jpg1{
+    background-image: url(./Images/Red\ Panda.jpg);
+    height: 750px;
+}
+
+.jpg2{
+    background-image: url(./Images/Dolphin.jpg);
+    height: 400px;
+}
+
+.jpg3{
+    background-image: url(./Images/Cheetah.jpg);
+    height: 400px;
+}
+
+.jpg4{
+    background-image: url(./Images/Cats.jpg);
+    height: 700px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section h2{
+    text-transform: capitalize;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #252e34;
+    color: #ddd;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.without-border {
+    color: #fff;
+}
+
+@media(max-width:568px){
+    .jpg1, .jpg2, .jpg3, .jpg4{
+        background-attachment: scroll;
+    }
+}
